@@ -19,10 +19,11 @@ ul li {
 }
 ul li a{
     text-decoration: none;
+    align-items: center;
     color: #1bc8f8;
     font-size: 22px;
     display: flex;
-    padding: 15px 20px;
+    padding: 15px 30px;
     position: relative;
 }
 ul li a:before{
@@ -57,6 +58,7 @@ ul li a:hover:before, ul li a:hover:after{
 }
 fieldset{
     backdrop-filter: blur(20px);
+    align-items: center;
     display: flex;
     align-items: center;
     border-color: #1bc8f8;
